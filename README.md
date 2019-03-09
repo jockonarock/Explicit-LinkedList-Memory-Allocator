@@ -1,12 +1,12 @@
 # Explicit-LinkedList-Memory-Allocator
 Memory allocator written in C. This implementation make uses of the explicit linked list structure to store and manage memory in heap. 
-This memory allocator performs at approximately 76% throughput in comparison to the MMU implementation.
+This memory allocator performs at approximately 76% throughput in comparison to the GNU implementation.
 
 ## Getting Started
 This is a partial code display for a bigger project and is not meant to be run on your local machine. 
 Helper functions have been excluded from the upload to prevent possible plagarism for school projects.
 
-## Current Features (Dec 2017)
+## Current Features
  - Chunk design: header (size and status + padding), payload, footer. 
  - Realloc: changes the size of a block.
  - Split: splits free block into two partitions.
